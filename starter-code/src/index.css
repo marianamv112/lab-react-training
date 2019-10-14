@@ -30,3 +30,63 @@ code {
   padding: 10px;
   margin: 20px;
 }
+
+.red {
+  background-color: red
+}
+
+.white {
+  background-color: white
+}
+
+.numbersTable {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 250px;
+}
+
+.numbersTable li {
+  width: 50px;
+  height: 50px;
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#cardImg {
+  max-width: 50px;
+  align-self: flex-end;
+  margin: 10px;
+}
+
+.creditCard {
+  max-width: 350px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  height: 160px;
+  margin: 10px;
+}
+
+.number {
+  font-size: 25px;
+  align-self: center;
+  margin: 10px;
+}
+
+.credit-card-text {
+  margin-left: 10px;
+  display: flex;
+  margin-bottom: 0px;
+}
+
+.credit-card-text p {
+  margin-bottom: 0px;
+}
+
+.bank-name {
+  margin-left: 50px;
+}
